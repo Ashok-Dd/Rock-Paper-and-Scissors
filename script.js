@@ -45,5 +45,5 @@ function resetGame(){
     setTimeout(() => {
         document.getElementById('player1').innerHTML = '<span class="emoji">🤔</span>';
         document.getElementById('player2').innerHTML = '<span class="emoji">🤖</span>';
-    }, 500);
+    }, 1000);
 }
