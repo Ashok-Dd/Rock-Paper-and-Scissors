@@ -37,7 +37,6 @@ function winner(){
 }
 function displayResult(result){
     document.getElementById('print').innerHTML=`${result}`;
-
 }
 function resetGame(){
     player='';
