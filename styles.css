@@ -67,3 +67,49 @@ button:hover {
     font-size: 2em;
     color: black;
 }
+@media screen and (max-width: 480px) {
+    .player {
+        background-color: #e2e27c; 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+        border: 2px solid black;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+    }    
+    .result-container {
+        background-color: #01c3fe;
+        border: 2px solid #000;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    button {
+        background-color: lawngreen;  
+        border: none;  
+        border-radius: 15px; 
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px; 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+            body{
+                overflow: hidden;
+            }
+}
