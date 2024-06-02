@@ -1,0 +1,69 @@
+body {
+    background-color: #ff6347; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.both {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.player {
+    background-color: #f5f5dc; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+.player span {
+    font-size: 10em;
+}
+.opt {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+button {
+    background-color: lawngreen;  
+    border: none;  
+    border-radius: 15px; 
+    width: 150px;
+    height: 100px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: #ffeb3b;
+    transform: translateY(-5px);
+}
+.result-container {
+    background-color: #01c3fe;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.result-container h2 {
+    margin: 0;
+    font-size: 2em;
+    color: black;
+}
