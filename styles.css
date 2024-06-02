@@ -76,19 +76,24 @@ button:hover {
         align-items: center;
         justify-content: center;
         width: 80%;
-        height: 280px;
+        height: 270px;
         border: 2px solid black;
         border-radius: 15px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
         font-weight: bold;
         text-align: center;
         position: relative;
-    }    
+    }  
+    .result-container h2 {
+        margin: 0;
+        font-size: 1em;
+        color: black;
+    }  
     .result-container {
         background-color: #01c3fe;
         border: 2px solid #000;
         border-radius: 10px;
-        padding: 20px;
+        padding: 10px;
         margin-bottom: 20px;
         width: 80%;
         
